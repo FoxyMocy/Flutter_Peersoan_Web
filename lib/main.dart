@@ -3,6 +3,9 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../pages/pages.dart';
 import './themes/themes.dart';
+import 'dart:html' as html;
+import 'package:flutter_web_plugins/flutter_web_plugins.dart';
+import 'package:webview_flutter/webview_flutter.dart' as webview;
 
 void main() {
   runApp(const MyApp());
